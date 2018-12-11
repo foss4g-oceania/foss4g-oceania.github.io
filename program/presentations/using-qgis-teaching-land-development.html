@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Advanced Diploma of Surveying students spend much of their time improving the accuracy and precision of their skills in engineering and cadastral survey. One Unit at RMIT University&#039;s School of Vocational Engineering, Health &amp; Sciences is called Determining Clients Spatial Requirements and is focused the surveyor working as a consultant to a land developer. " />
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+<link rel="canonical" href="using-qgis-teaching-land-development.html" />
+<link rel="shortlink" href="../../node/164.html" />
+<meta property="og:site_name" content="FOSS4G SotM Oceania" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="using-qgis-teaching-land-development.html" />
+<meta property="og:title" content="Using QGIS for Teaching Land Development" />
+<meta property="og:description" content="Advanced Diploma of Surveying students spend much of their time improving the accuracy and precision of their skills in engineering and cadastral survey. One Unit at RMIT University&#039;s School of Vocational Engineering, Health &amp; Sciences is called Determining Clients Spatial Requirements and is focused the surveyor working as a consultant to a land developer. " />
+<meta property="og:updated_time" content="2018-12-09T14:01:09+11:00" />
+<meta property="og:image" content="../../sites/default/files/logo_image_small.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="684" />
+<meta property="og:image:height" content="384" />
+<meta name="twitter:card" content="photo" />
+<meta name="twitter:site" content="@FOSS4G_Oceania" />
+<meta name="twitter:site:id" content="944056283497340928" />
+<meta name="twitter:title" content="Using QGIS for Teaching Land Development" />
+<meta name="twitter:url" content="using-qgis-teaching-land-development.html" />
+<meta name="twitter:description" content="Advanced Diploma of Surveying students spend much of their time improving the accuracy and precision of their skills in engineering and cadastral survey. One Unit at RMIT University&#039;s School of" />
+<meta name="twitter:image" content="../../sites/default/files/logo_image_small.png" />
+<meta name="twitter:image:width" content="684" />
+<meta name="twitter:image:height" content="384" />
+<meta name="twitter:image:alt" content="FOSS4G SotM Oceania" />
+<meta property="article:published_time" content="2018-09-30T17:48:42+10:00" />
+<meta property="article:modified_time" content="2018-12-09T14:01:09+11:00" />
+<link rel="shortcut icon" href="../../misc/favicon.ico" type="image/vnd.microsoft.icon" />
+  <title>Using QGIS for Teaching Land Development | FOSS4G SotM Oceania</title>
+  <link type="text/css" rel="stylesheet" href="../../sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../sites/default/files/css/css_feGtcFld6PA6IEUwxjJShf7dBQ608FrHvBRtW-WewgY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../sites/default/files/css/css_nnQ1sKNAkNKG0pjeN1aXWvxtEBVENmkSdb7TOeMVMKg.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/resources/api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../sites/default/files/css/css_qge6ydaE1u3I5bA9I5rATC5IlQIeiSra12MPbcAgCG4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../sites/default/files/css/css_Roqcv31piAvkOG9Tp3QLnRdEwbjQiKxKYG0_ECD827M.css" media="all" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700|Kodchasan" rel="stylesheet">
+  <link href="/resources/cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+  <script defer src="/resources/use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+  <script src="../../sites/default/files/js/js_xvYJgU6LChHqbcSh4y1AvdXfD5QBIwT3GVGVUeuksbM.js"></script>
+<script src="../../sites/default/files/js/js_gPqjYq7fqdMzw8-29XWQIVoDSWTmZCGy9OqaHppNxuQ.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","/resources/www.google-analytics.com/analytics.js","ga");ga("create", "UA-116592039-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script src="../../sites/default/files/js/js_5Nom9Arzwu4LfmOlvpIbD2yEPZ1DDv873ZYZQk1P-JE.js"></script>
+<script src="../../sites/default/files/js/js_DzqesLsGDWZQm-7B5wHcxXyK7cp7ovpzDt9-bVKaecA.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"foss4g","theme_token":"tEZ1iyZAYWD9rXsJzEzjWi8l7wtFLsfmvf2OwtCBd8Q","js":{"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"profiles\/cod\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/libraries\/superfish\/sfsmallscreen.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/contrib\/superfish\/superfish.js":1,"sites\/all\/themes\/foss4g\/bootstrap\/assets\/javascripts\/bootstrap\/affix.js":1,"sites\/all\/themes\/foss4g\/bootstrap\/assets\/javascripts\/bootstrap\/alert.js":1,"sites\/all\/themes\/foss4g\/bootstrap\/assets\/javascripts\/bootstrap\/button.js":1,"sites\/all\/themes\/foss4g\/bootstrap\/assets\/javascripts\/bootstrap\/carousel.js":1,"sites\/all\/themes\/foss4g\/bootstrap\/assets\/javascripts\/bootstrap\/collapse.js":1,"sites\/all\/themes\/foss4g\/bootstrap\/assets\/javascripts\/bootstrap\/dropdown.js":1,"sites\/all\/themes\/foss4g\/bootstrap\/assets\/javascripts\/bootstrap\/modal.js":1,"sites\/all\/themes\/foss4g\/bootstrap\/assets\/javascripts\/bootstrap\/tooltip.js":1,"sites\/all\/themes\/foss4g\/bootstrap\/assets\/javascripts\/bootstrap\/popover.js":1,"sites\/all\/themes\/foss4g\/bootstrap\/assets\/javascripts\/bootstrap\/scrollspy.js":1,"sites\/all\/themes\/foss4g\/bootstrap\/assets\/javascripts\/bootstrap\/tab.js":1,"sites\/all\/themes\/foss4g\/bootstrap\/assets\/javascripts\/bootstrap\/transition.js":1},"css":{"modules\/system\/system.base.css":1,"profiles\/cod\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/cod\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"profiles\/cod\/modules\/contrib\/views\/css\/views.css":1,"profiles\/cod\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"profiles\/cod\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/cod\/modules\/contrib\/panels\/css\/panels.css":1,"https:\/\/resources\/api.tiles.mapbox.com\/mapbox-gl-js\/v0.47.0\/mapbox-gl.css":1,"sites\/all\/modules\/custom\/map\/map.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-smallscreen.css":1,"sites\/all\/themes\/foss4g\/css\/style.css":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"superfish":[{"id":"1","sf":{"animation":{"opacity":"show","height":"show"},"speed":"fast","dropShadows":false},"plugins":{"smallscreen":{"mode":"window_width","breakpointUnit":"px","accordionButton":"0","title":"Menu"},"supposition":true,"supersubs":true}},{"id":"3","sf":{"animation":{"opacity":"show","height":"show"},"speed":"fast","autoArrows":false,"dropShadows":false},"plugins":{"supposition":true,"supersubs":true}}],"bootstrap":{"anchorsFix":"0","anchorsSmoothScrolling":"0","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-164 node-type-presentation">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="nav-outer container-fluid fixed">
+  <div id="navbar" class="container navbar navbar-default">
+
+    <a class="navbar-brand" href="../../index.html"><img id="globe" height="45" width="auto" src="../../sites/all/themes/foss4g/globe.png"></a>
+
+    <div class="navbar-header">
+
+      
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+
+    </div>
+    
+        <div class="navbar-collapse collapse" id="navbar-collapse">
+      <nav role="navigation">
+                                  <div class="region region-navigation">
+    <section id="block-superfish-1" class="block block-superfish clearfix">
+
+      
+  <ul  id="superfish-1" class="menu sf-menu sf-main-menu sf-horizontal sf-style-none sf-total-items-7 sf-parent-items-6 sf-single-items-1"><li id="menu-1383-1" class="first odd sf-item-1 sf-depth-1 sf-total-children-3 sf-parent-children-0 sf-single-children-3 menuparent"><span title="" class="sf-depth-1 menuparent nolink">About</span><ul><li id="menu-1388-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="../../about/about-event.html" class="sf-depth-2 sf-depth-2">About the event</a></li><li id="menu-1411-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="../../about/organisers.html" class="sf-depth-2 sf-depth-2">Organisers</a></li><li id="menu-1412-1" class="last odd sf-item-3 sf-depth-2 sf-no-children"><a href="../../about/contact-us.html" class="sf-depth-2 sf-depth-2">Contact us</a></li></ul></li><li id="menu-1384-1" class="middle even sf-item-2 sf-depth-1 sf-total-children-10 sf-parent-children-0 sf-single-children-10 menuparent"><span title="" class="sf-depth-1 menuparent nolink">Attend</span><ul><li id="menu-1393-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="../../attend/registration.html" class="sf-depth-2 sf-depth-2">Registration</a></li><li id="menu-1389-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="../../attend/important-dates.html" class="sf-depth-2 sf-depth-2">Important dates</a></li><li id="menu-1391-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="../../attend/venue.html" class="sf-depth-2 sf-depth-2">Venue</a></li><li id="menu-1501-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="../../attend/map.html" title="" class="sf-depth-2 sf-depth-2">Map</a></li><li id="menu-1394-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="../../attend/code-conduct.html" class="sf-depth-2 sf-depth-2">Code of Conduct</a></li><li id="menu-1491-1" class="middle even sf-item-6 sf-depth-2 sf-no-children"><a href="../../child-friendly-conference.html" class="sf-depth-2 sf-depth-2">Child Friendly Conference</a></li><li id="menu-1470-1" class="middle odd sf-item-7 sf-depth-2 sf-no-children"><a href="../../attend/good-mojo-program.html" class="sf-depth-2 sf-depth-2">Good Mojo Program</a></li><li id="menu-1490-1" class="middle even sf-item-8 sf-depth-2 sf-no-children"><a href="../../travel-grant-program.html" class="sf-depth-2 sf-depth-2">Travel Grant Program</a></li><li id="menu-1492-1" class="middle odd sf-item-9 sf-depth-2 sf-no-children"><a href="../../volunteer.html" class="sf-depth-2 sf-depth-2">Volunteer</a></li><li id="menu-1509-1" class="last even sf-item-10 sf-depth-2 sf-no-children"><a href="../../attend/conference-guide.html" class="sf-depth-2 sf-depth-2">Conference Guide</a></li></ul></li><li id="menu-1493-1" class="middle odd sf-item-3 sf-depth-1 sf-total-children-6 sf-parent-children-0 sf-single-children-6 menuparent"><span title="" class="sf-depth-1 menuparent nolink">Program</span><ul><li id="menu-1506-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="../schedule.html" class="sf-depth-2 sf-depth-2">Schedule</a></li><li id="menu-1530-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="../keynotes.html" class="sf-depth-2 sf-depth-2">Keynotes</a></li><li id="menu-1497-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="../presentations.html" class="sf-depth-2 sf-depth-2">Presentations</a></li><li id="menu-1486-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="../workshops.html" class="sf-depth-2 sf-depth-2">Workshops</a></li><li id="menu-1467-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="../community-day.html" class="sf-depth-2 sf-depth-2">Community Day</a></li><li id="menu-1390-1" class="last even sf-item-6 sf-depth-2 sf-no-children"><a href="../social-events.html" class="sf-depth-2 sf-depth-2">Social events</a></li></ul></li><li id="menu-1462-1" class="middle even sf-item-4 sf-depth-1 sf-total-children-4 sf-parent-children-0 sf-single-children-4 menuparent"><span title="" class="sf-depth-1 menuparent nolink">Present</span><ul><li id="menu-1469-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="../../present/community-day-proposal.html" class="sf-depth-2 sf-depth-2">Community Day Proposal</a></li><li id="menu-1435-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="../../present/call-presentations-and-workshops.html" class="sf-depth-2 sf-depth-2">Call for presentations and workshops</a></li><li id="menu-1432-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="../../present/submit-general-stream-presentation.html" class="sf-depth-2 sf-depth-2">Submit a general stream presentation</a></li><li id="menu-1436-1" class="last even sf-item-4 sf-depth-2 sf-no-children"><a href="../../present/submit-academic-paper.html" class="sf-depth-2 sf-depth-2">Submit an academic paper</a></li></ul></li><li id="menu-1385-1" class="middle odd sf-item-5 sf-depth-1 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><span title="" class="sf-depth-1 menuparent nolink">Sponsor</span><ul><li id="menu-1466-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="../../sponsor/our-sponsors.html" class="sf-depth-2 sf-depth-2">Our sponsors</a></li><li id="menu-1395-1" class="last even sf-item-2 sf-depth-2 sf-no-children"><a href="../../sponsor/become-sponsor.html" class="sf-depth-2 sf-depth-2">Become a sponsor</a></li></ul></li><li id="menu-1423-1" class="middle even sf-item-6 sf-depth-1 sf-no-children"><a href="../../news.html" class="sf-depth-1 sf-depth-1">News</a></li><li id="menu-1528-1" class="last odd sf-item-7 sf-depth-1 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><span title="" class="sf-depth-1 menuparent nolink">Post conference</span><ul><li id="menu-1526-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="../../videos.html" class="sf-depth-2 sf-depth-2">Videos</a></li><li id="menu-1529-1" class="last even sf-item-2 sf-depth-2 sf-no-children"><a href="../../photos.html" class="sf-depth-2 sf-depth-2">Photos</a></li></ul></li></ul>
+</section>
+  </div>
+              </nav>
+    </div>
+      </div>
+</div>
+
+<header role="banner" >
+  <div class="mapscroll"></div>
+</header>
+
+<div class="main-container container">
+
+  <div class="row">
+
+    
+    <section class="col-sm-12">
+            <a id="main-content"></a>
+                    <h1 class="page-header">Using QGIS for Teaching Land Development</h1>
+                                                                <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+
+      
+  <article id="node-164" class="node node-presentation clearfix">
+        </article>
+
+</section>
+<section id="block-views-presentation-display-block" class="block block-views clearfix">
+
+      
+  <div class="view view-presentation-display- view-id-presentation_display_ view-display-id-block view-dom-id-075139a122f72fb2ca632c936a5b7fea">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><p>Advanced Diploma of Surveying students spend much of their time improving the accuracy and precision of their skills in engineering and cadastral survey. One Unit at RMIT University's School of Vocational Engineering, Health &amp; Sciences is called Determining Clients Spatial Requirements and is focused the surveyor working as a consultant to a land developer. </p>
+
+<p>A revamp of this Unit aimed to introduce the students to using QGIS to identify the ideal land parcels for subdivision development in their individual neighbourhoods, based on land developer requirements, and publish the results to their clients via the web using QGIS Cloud. </p>
+
+<p>For all students this was their first use of open source software and their first attempt at publishing on the internet.</p>
+
+<p>The students accessed authoritative Victorian state government base data sets including Broad hectare Residential Land parcels, VicMap Features of Interest including schools, railway stations, hospitals etc. and VicMap property &amp; parcel data. They identified those land parcels which met criteria suitable for subdivision based on Victorian town planning regulations, then filtered down to a Top Ten list of those parcels close to facilities and offering the best outcome for a potential developer to invest. Other criteria such as vacant land and old buildings on site were also taken into consideration.</p>
+
+<p>To complete the exercise, students produced PDF reports and maps with QGIS and published their results via the web with QGIS Cloud, simulating the real life workflow of providing the land developer clients with direct access to project results.</p>
+
+<p>The next step in our evolving use of QGIS is to gain experience in its terrain modelling capabilities and workflow so it can be used to support the Unit: Develop 2-D and 3-D terrain visualisations.</p></div>  </div>  
+  <div class="views-field views-field-field-presentation-type">    <strong class="views-label views-label-field-presentation-type">Presentation type: </strong>    <span class="field-content">Lightning</span>  </div>  
+  <div class="views-field views-field-field-stream-session">    <strong class="views-label views-label-field-stream-session">Session: </strong>    <span class="field-content">Lightning Talks</span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</section>
+<section id="block-views-presentation-bios-block-1" class="block block-views clearfix">
+
+      
+  <div class="view view-presentation-bios view-id-presentation_bios view-display-id-block_1 view-dom-id-00b17526c464ffd7ab09e382c2ac5889">
+            <div class="view-header">
+      <h3>Presenter</h3>    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="bio">
+      
+  <div class="views-field views-field-field-profile-last">        <h4 class="field-content">Andrew Bashfield</h4>  </div>  
+  <div class="views-field views-field-field-profile-bio">        <div class="field-content">Andrew teaches GIS and Mapping courses to Vocational Education level Surveying students at RMIT University in Melbourne. He is a past AURISA New Zealand Chair, past Victorian SSSI Chair and was an SSI Director during the transition to SSSI. He is currently on the SSSI Victorian Regional Committee as Spatial Information &amp; Cartography Chair.
+
+Prior to commencing teaching, Andrew was Sales Director for US data vendor Intermap Technologies Inc., distributing radar based aerial &amp; satellite elevation data to the Australian and South East Asian markets.
+
+He has over 30 years of experience working with international and local technology organisations in Australia, New Zealand, and Asia including senior roles in sales and marketing management with major software and data vendors Intergraph, Autodesk and Bentley Systems. 
+
+Andrew has a BAppSc in Cartography from RMIT University, and a GradCert in Entrepreneurship &amp; Innovation from Swinburne University.
+
+M: 0408 537 182
+E:  andrew.bashfield@rmit.edu.au
+T: @3DBusInt
+LI: www.linkedin.com/in/andrewbashfield/
+</div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</section>
+  </div>
+    </section>
+
+
+    
+  </div>
+</div>
+
+  <footer class="footer_top container-fluid">
+        <div class="region region-footer-top">
+    <section id="block-block-8" class="block block-block clearfix">
+
+      
+  <p>Brought to you by the <a href="../../about/organisers.html" rel="nofollow">FOSS4G SotM Oceania organising committee</a></p>
+</section>
+<section id="block-views-partners-block" class="block block-views clearfix">
+
+        <h2 class="block-title">In partnership with</h2>
+    
+  <div class="view view-partners view-id-partners view-display-id-block partner view-dom-id-8462f0ff5b6fcb0a2892fe77e4438f4b">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-logo">        <div class="field-content"><a href="https://sssi.org.au/"><img class="img-responsive" src="../../sites/default/files/styles/cod_sponsors/public/partners/sssi_logo1ea6.jpg?itok=gIKrOkRq" width="220" height="155" alt="SSSI logo" /></a></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</section>
+<section id="block-views-partners-block-2" class="block block-views clearfix">
+
+        <h2 class="block-title">Hosted by</h2>
+    
+  <div class="view view-partners view-id-partners view-display-id-block_2 partner view-dom-id-95b28aa7a5af3a2a85d21aa6e7808221">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-logo">        <div class="field-content"><a href="http://spatial.unimelb.edu.au/engagement/ica-osgeo-laboratory/"><img class="img-responsive" src="../../sites/default/files/styles/cod_sponsors/public/partners/uni_logo_06236.jpg?itok=dejXXJc_" width="220" height="96" alt="The University of Melbourne logo" /></a></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</section>
+<section id="block-views-partners-block-1" class="block block-views clearfix">
+
+        <h2 class="block-title">In association with</h2>
+    
+  <div class="view view-partners view-id-partners view-display-id-block_1 partner view-dom-id-9284468890389e0399331d587b832a61">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-logo">        <div class="field-content"><a href="https://www.osgeo.org/"><img class="img-responsive" src="../../sites/default/files/styles/cod_sponsors/public/partners/Osgeo-logo37ad.png?itok=NO6Pz-Mq" width="220" height="75" alt="OsGeo logo" /></a></div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+      
+  <div class="views-field views-field-field-logo">        <div class="field-content"><a href="https://www.openstreetmap.org/"><img class="img-responsive" src="../../sites/default/files/styles/cod_sponsors/public/partners/Public-images-osm_logob77f.png?itok=Pjegcufc" width="220" height="220" alt="OpenStreetMap Foundation" /></a></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</section>
+  </div>
+  </footer>
+
+<footer class="footer container-fluid">
+  <div class="container">
+    <div class="social">
+      <div class="social-icon"><a href="https://twitter.com/foss4g_oceania"><i class="fab fa-twitter"></i></a></div>
+    </div>
+      <div class="region region-footer">
+    <section id="block-block-5" class="block block-block clearfix">
+
+      
+    <div id="mc_embed_signup">
+<form action="https://foss4g-oceania.us17.list-manage.com/subscribe/post?u=26f3c80da46835144592b59b6&amp;id=3d38178ba0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+    <label for="mce-EMAIL">Subscribe to our mailing list</label>
+    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_26f3c80da46835144592b59b6_3d38178ba0" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+</section>
+<section id="block-superfish-3" class="block block-superfish clearfix">
+
+      
+  <ul  id="superfish-3" class="menu sf-menu sf-user-menu sf-horizontal sf-style-none sf-total-items-3 sf-parent-items-0 sf-single-items-3"><li id="menu-1459-3" class="first odd sf-item-1 sf-depth-1 sf-no-children"><a href="../../attend/code-conduct.html" title="" class="sf-depth-1 sf-depth-1">Code of conduct</a></li><li id="menu-1460-3" class="middle even sf-item-2 sf-depth-1 sf-no-children"><a href="../../sitemap.html" title="" class="sf-depth-1 sf-depth-1">Sitemap</a></li><li id="menu-1464-3" class="last odd sf-item-3 sf-depth-1 sf-no-children"><a href="../../user.html" title="" class="sf-depth-1 sf-depth-1">Log In</a></li></ul>
+</section>
+  </div>
+  </div>
+</footer>
+  <script src="../../sites/default/files/js/js_FbpwIZNwgzwEuuL4Q2HOM07BOSCY5LxL_gwSK4ohQBM.js"></script>
+</body>
+</html>
